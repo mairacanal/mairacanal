@@ -2,7 +2,7 @@
 <h3 align="left">I am a Computer Engineering student, that love aerospace things and embedded systems</h3>
 
 <a>
-  <img src="https://github-readme-stats.vercel.app/api?username=mairacanal&show_icons=true&count_private=true&include_all_commits=true" alt="mairacanal" align="right" />
+  <img src="https://github-readme-stats.vercel.app/api?username=mairacanal&count_private=true&show_icons=true&bg_color=0D1117&title_color=FFFFFF&text_color=FFFFFF&icon_color=6E40C9&hide_border=true&include_all_commits=true" alt="mairacanal" align="right" />
 </a>
 
 - 🚀 &nbsp;I'm currently part of **[Zenith Aerospace]**
