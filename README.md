@@ -1,28 +1,54 @@
-<h1 align="left">:wave: Hello there! I'm Maíra Canal</h1>
-<h3 align="left">I am a Computer Engineering student, that love open-source and embedded systems</h3>
+```Rust
+// ~/mairacanal.rs
 
-<a>
-  <img src="https://github-readme-stats.vercel.app/api?username=mairacanal&count_private=true&show_icons=true&bg_color=0D1117&title_color=FFFFFF&text_color=FFFFFF&icon_color=6E40C9&hide_border=true&include_all_commits=true" alt="mairacanal" align="right" />
-</a>
+impl AboutMe {
+    fn getCurrentWorkplace() -> &str {
+        "Igalia Coding Experience"
+    }
 
-- :es: &nbsp;I'm currently part of **[Igalia CE]** and an active contributor in many open-source projects, such as the **Linux Kernel**, **Mesa**, **LLVM** and more.
-- :penguin: &nbsp;I’m currently learning more about the **Linux Kernel**.
-- :speech_balloon: &nbsp;I like to talk about **computer architecture** and **embedded systems**.
-- :computer: &nbsp;Connect with me on **[LinkedIn]**!
+    fn getCurrentDegree() -> Degree {
+        Degree {
+            course: "Computer Engineering",
+            university: "University of São Paulo",
+            onGoing: true,
+        }
+    }
 
-<br>
+    fn getDailyKnowledge() -> Vec<&str> {
+        vec![
+            "C/C++",
+            "Rust",
+            "Data Structures",
+            "Linux Kernel",
+            "Yocto",
+            "FreeRTOS",
+            "Computer Architecture",
+            "Embedded Systems",
+            "ARM",
+            "Vim",
+        ]
+    }
 
-<h2 align="left">Favorite Tech</h2>
+    fn getOpenSourceProjects() -> Vec<&str> {
+        vec![
+            "Linux Kernel, especially the DRM subsystem",
+            "igt-gpu-tools",
+            "Mesa",
+            "VK-GL-CTS",
+            "LLVM",
+            "meta-openembedded",
+        ]
+    }
 
-> Tools, languages, and other things that I like to work with.
+    fn getMyLinks() -> Vec<&str> {
+        vec![
+            "https://www.linkedin.com/in/mairacanal/",
+            "https://mairacanal.github.io/",
+        ]
+    }
 
-- :sparkles: **C/C++:** two of my favorite languages to work with.
-- :hammer: **Rust:** loving to work with this new safe language.
-- :five: **RISC-V:** learning more about this computer architecture, as I love to study this topic.
-- :penguin: **Linux Kernel:** I'm an active contributor of the DRM and still learning more!
-- :computer: **FreeRTOS and Yocto:** learning more about those tools for my personal projects.
-
-<!-- links -->
-
-[Igalia CE]: https://www.igalia.com/coding-experience/ "Igalia Coding Experience"
-[linkedin]: https://www.linkedin.com/in/mairacanal/ "Maíra Canal's LinkedIn"
+    fn getFutureGoal() -> &str {
+        "Learn more about RISC-V, Rust and GPU architecture."
+    }
+}
+```
