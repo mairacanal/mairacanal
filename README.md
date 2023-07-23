@@ -3,7 +3,7 @@
 
 impl AboutMe {
     fn getCurrentWorkplace() -> &str {
-        "Igalia Coding Experience"
+        "Igalia"
     }
 
     fn getCurrentDegree() -> Degree {
@@ -48,7 +48,7 @@ impl AboutMe {
     }
 
     fn getFutureGoal() -> &str {
-        "Learn more about RISC-V, Rust and GPU architecture."
+        "Learn more about RISC-V, Rust, and GPU architecture."
     }
 }
 ```
